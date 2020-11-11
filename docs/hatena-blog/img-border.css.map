@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,kBAAmB;EACf,MAAM,EAAE,iBAAiB",
-"sources": ["img-border.scss"],
-"names": [],
-"file": "img-border.css"
-}

@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,WAAY;EACV,KAAK,EAAE,IAAI;;AAGb,KAAK;EACH,KAAK,EAAE,GAAG;;ACHZ,kBAAmB;EACf,MAAM,EAAE,iBAAiB",
-"sources": ["common.scss","img-border.scss"],
-"names": [],
-"file": "release-list.css"
-}
