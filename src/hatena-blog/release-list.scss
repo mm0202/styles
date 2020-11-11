@@ -4,14 +4,18 @@
   ul.intro {
     display: flex;
     justify-content: flex-start;
-    margin: 0
-  }
-  li{
-    &:first-of-type{
-      flex-grow: 1
-    }
-    &:last-of-type{
-      width: 70%; margin-left: 1rem
+    margin: 0;
+    list-style-type: none;
+
+    li {
+      &:first-of-type {
+        flex-grow: 1
+      }
+
+      &:last-of-type {
+        width: 70%;
+        margin-left: 1rem
+      }
     }
   }
 }
