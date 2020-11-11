@@ -1,8 +1,17 @@
 @import "img-border";
 
 .entry-content {
- ul{
-   list-style-type: none;
-   margin-left: 2rem;
- }
+  ul.intro {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0
+  }
+  li{
+    &:first-of-type{
+      flex-grow: 1
+    }
+    &:last-of-type{
+      width: 70%; margin-left: 1rem
+    }
+  }
 }
