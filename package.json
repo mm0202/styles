@@ -5,16 +5,7 @@
     "scss": "gulp scss",
     "scss-watch": "gulp watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mm0202/styles.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mm0202/styles/issues"
-  },
-  "homepage": "https://github.com/mm0202/styles#readme",
+  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.0.2",
     "gulp": "^4.0.2",
@@ -22,5 +13,13 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "postcss": "^8.1.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mm0202/styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mm0202/styles/issues"
+  },
+  "homepage": "https://github.com/mm0202/styles#readme"
 }
