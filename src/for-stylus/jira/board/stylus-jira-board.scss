@@ -22,15 +22,15 @@
   height: 2rem !important;
 }
 
-[class^="styled__Outer"]{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: -3px 0 -20px 0;
+[data-test-id="software-board.board"] > div:first-of-type > div:first-of-type {
+  display: none;
 }
 
-[class^="styled__Outer"] > div {
-  margin-right: 2rem;
+[data-test-id="software-board.board"] > div:first-of-type > div:first-of-type > * {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: -3px 0 -20px 0;
 }
 
 /* 担当者折りたたみパートをコンパクト化 */
