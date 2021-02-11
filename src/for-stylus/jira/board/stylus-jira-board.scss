@@ -18,11 +18,23 @@
 }
 
 /* トップナビの高さ調整 */
+#jira-frontend > div:first-of-type > div:first-of-type {
+  display: inherit;
+}
+
+[data-ds--page-layout--slot="top-navigation"] {
+  display: none;
+}
+
 // [data-testid="atlassian-navigation--header"] {
 //   height: 2rem !important;
 // }
 
-[data-ds--page-layout--slot="main"] > div:first-of-type > div:first-of-type > div:nth-of-type(2) {
+[data-test-id="software-board.board"]{
+  height: auto;
+}
+
+[data-test-id="software-board.board"] > div:first-of-type > div:nth-of-type(1) {
   display: none;
 }
 
