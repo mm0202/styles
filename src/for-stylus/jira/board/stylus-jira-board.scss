@@ -18,20 +18,24 @@
 }
 
 /* トップナビの高さ調整 */
-[data-testid="atlassian-navigation--header"] {
-  height: 2rem !important;
-}
+// [data-testid="atlassian-navigation--header"] {
+//   height: 2rem !important;
+// }
 
-[data-test-id="software-board.board"] > div:first-of-type > div:first-of-type {
+[data-ds--page-layout--slot="main"] > div:first-of-type > div:first-of-type > div:nth-of-type(2) {
   display: none;
 }
 
-[data-test-id="software-board.board"] > div:first-of-type > div:first-of-type > * {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: -3px 0 -20px 0;
-}
+// [data-test-id="software-board.board"] > div:first-of-type > div:first-of-type {
+//   display: none;
+// }
+
+// [data-test-id="software-board.board"] > div:first-of-type > div:first-of-type > * {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: flex-start;
+//     margin: -3px 0 -20px 0;
+// }
 
 /* 担当者折りたたみパートをコンパクト化 */
 [data-test-id="platform-board-kit.ui.swimlane.swimlane-content"] [role="presentation"] + div {
