@@ -3,6 +3,10 @@
   display: none;
 }
 
+[data-test-id="software-board.board-area"] > div:first-of-type > div:first-of-type > section:first-of-type > div:first-of-type {
+  display: none;
+}
+
 /* [data-testid="Navigation"] {
     display: none;
 }
