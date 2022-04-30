@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   docs:
-    image: httpd
+    build: .
     restart: always
     ports:
-      - 50030:80
+      - 50030:443
     volumes:
       - ./docs:/usr/local/apache2/htdocs/css
       - ./src:/usr/local/apache2/htdocs/scss
