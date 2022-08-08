@@ -1,0 +1,34 @@
+#header-desktop,
+#sidebar {
+    display: none;
+}
+
+#cover {
+    display: block;
+
+    li {
+        min-width: 0%;
+        margin: 0;
+
+        div[id^=sample-grid-] {
+            display: none;
+        }
+    }
+}
+
+._18oNBwLP1oBKNoOJzx5Qaw {
+    padding: 0;
+}
+
+._32bqB1B7aJ_ddOx6zdaSP6{
+    display: block !important;
+}
+
+._1L3sdSZDIqnTIjujeIEWJ6{
+    margin: 0;
+    width: 100% !important;
+}
+
+#library + div {
+    margin: 0;
+}
