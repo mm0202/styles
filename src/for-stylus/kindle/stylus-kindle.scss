@@ -10,7 +10,9 @@
         min-width: 0%;
         margin: 0;
 
-        div[id^=sample-grid-] {
+        div[id^=sample-grid-],
+        div[id^=title-],
+        div[id^=author-] {
             display: none;
         }
     }
@@ -20,15 +22,15 @@
     padding: 0;
 }
 
-._32bqB1B7aJ_ddOx6zdaSP6{
+._32bqB1B7aJ_ddOx6zdaSP6 {
     display: block !important;
 }
 
-._1L3sdSZDIqnTIjujeIEWJ6{
+._1L3sdSZDIqnTIjujeIEWJ6 {
     margin: 0;
     width: 100% !important;
 }
 
-#library + div {
+#library+div {
     margin: 0;
 }
