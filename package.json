@@ -2,8 +2,8 @@
   "name": "styles",
   "version": "1.0.0",
   "scripts": {
-    "scss": "gulp scss",
-    "scss-watch": "gulp watch"
+    "build": "gulp scss",
+    "watch": "gulp watch"
   },
   "license": "MIT",
   "dependencies": {
