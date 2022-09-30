@@ -1,0 +1,53 @@
+.nav-user-info {
+    img.tweet-avatar.avatar {
+        display: none !important;
+    }    
+    // background-color: rgb(5, 12, 26);
+    display: none !important;
+}
+
+img.tweet-avatar.avatar {
+    &.obj-left{
+        display: none !important;
+    }
+}
+
+.column-header-title, .js-column-title{
+    .attribution {
+        display: none !important;
+    }
+}
+
+.js-header-action[data-title="Accounts"] {
+    display: none !important;
+}
+
+.column-message:has(.icon-user) {
+    &:has(.icon-user){
+        display: none !important;
+    }
+}
+
+.js-header-action[data-title="Settings"] + .js-dropdown {
+    b.non-selectable-item.txt-ellipsis {
+        display: none !important;
+    }    
+}
+
+.js-account-list {
+    display: none !important;
+}
+
+.js-column-nav-menu-flyover {
+    display: none !important;
+}
+
+.js-modal-panel {
+    ul.js-list-container {
+        li {
+            .bytext {
+                display: none !important;
+            }
+        }
+    }
+}
