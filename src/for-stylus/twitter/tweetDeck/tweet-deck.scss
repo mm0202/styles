@@ -45,9 +45,15 @@ img.tweet-avatar.avatar {
 .js-modal-panel {
     ul.js-list-container {
         li {
-            .bytext {
-                display: none !important;
+            img.avatar, .bytext, .fullname, .username {
+               display: none !important;
             }
+        }
+    }
+    
+    .column-content {
+        .other-replies-link {
+            display: none !important;
         }
     }
 }
