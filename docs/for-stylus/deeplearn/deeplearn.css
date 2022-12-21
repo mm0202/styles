@@ -1,0 +1,12 @@
+.author, .navbar, .btn-info {
+  display: none;
+}
+
+.twittersrc .author {
+  display: block;
+}
+
+.post-columns-wrapper {
+  padding-top: 0;
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvci1zdHlsdXMvZGVlcGxlYXJuL2RlZXBsZWFybi5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0k7OztBQUlBO0VBQ0k7OztBQUlSO0VBQ0kiLCJmaWxlIjoiZm9yLXN0eWx1cy9kZWVwbGVhcm4vZGVlcGxlYXJuLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5hdXRob3IsIC5uYXZiYXIsIC5idG4taW5mbyB7XG4gICAgZGlzcGxheTogbm9uZTtcbn1cblxuLnR3aXR0ZXJzcmMge1xuICAgIC5hdXRob3Ige1xuICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICB9XG59XG5cbi5wb3N0LWNvbHVtbnMtd3JhcHBlciB7XG4gICAgcGFkZGluZy10b3A6IDA7XG59XG4iXX0= */
