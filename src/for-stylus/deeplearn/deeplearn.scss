@@ -1,11 +1,19 @@
-.author, .navbar, .btn-info {
+.author, .navbar, .btn-info, .btn-danger, .btn-success {
     display: none;
 }
 
-.twittersrc {
-    .author {
-        display: block;
+.btns :last-child {
+    &.label-hot:nth-of-type(2) {
+        background: transparent;
     }
+}
+
+.twittersrc .author {
+    display: block;
+}
+
+font .label-hot {
+    display: inline !important;
 }
 
 .post-columns-wrapper {
