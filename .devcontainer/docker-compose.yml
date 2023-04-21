@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/typescript-node:0-18
+    command: sleep infinity
+    volumes:
+      - ../..:/workspaces:cached
+
+  docs:
+    build: .
+    restart: always
+    ports:
+      - 50001:443
+    volumes:
+      - ../docs:/usr/local/apache2/htdocs/css
+      - ../src:/usr/local/apache2/htdocs/scss
+#     networks:
+#       - development
+
+# networks:
+#   development:
+#     external: true
