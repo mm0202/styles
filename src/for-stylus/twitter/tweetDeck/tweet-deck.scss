@@ -1,67 +1,81 @@
-.js-app-columns {
-    padding: 0 0 0 0px !important;
-}
+// 新版スタイル
+// div[data-viewportview="true"] {
+//     &::-webkit-scrollbar {
+//         width: 10px;        
+//     }
+// }
 
-.js-column {
-    margin: 0 1.6px 0 0 !important;
-}
+// 旧版スタイル
+// .js-app-columns {
+//     padding: 0 0 0 0px !important;
+// }
 
-.nav-user-info {
-    img.tweet-avatar.avatar {
-        display: none !important;
-    }    
-    // background-color: rgb(5, 12, 26);
-    display: none !important;
-}
+// .js-column {
+//     margin: 0 1.6px 0 0 !important;
+// }
 
-img.tweet-avatar.avatar {
-    &.obj-left{
-        display: none !important;
-    }
-}
+// .nav-user-info {
+//     img.tweet-avatar.avatar {
+//         display: none !important;
+//     }
 
-.column-header-title, .js-column-title{
-    .attribution {
-        display: none !important;
-    }
-}
+//     // background-color: rgb(5, 12, 26);
+//     display: none !important;
+// }
 
-.js-header-action[data-title="Accounts"] {
-    display: none !important;
-}
+// img.tweet-avatar.avatar {
+//     &.obj-left {
+//         display: none !important;
+//     }
+// }
 
-.column-message:has(.icon-user) {
-    &:has(.icon-user){
-        display: none !important;
-    }
-}
+// .column-header-title,
+// .js-column-title {
+//     .attribution {
+//         display: none !important;
+//     }
+// }
 
-.js-header-action[data-title="Settings"] + .js-dropdown {
-    b.non-selectable-item.txt-ellipsis {
-        display: none !important;
-    }    
-}
+// .js-header-action[data-title="Accounts"] {
+//     display: none !important;
+// }
 
-.js-account-list {
-    display: none !important;
-}
+// .column-message:has(.icon-user) {
+//     &:has(.icon-user) {
+//         display: none !important;
+//     }
+// }
 
-.js-column-nav-menu-flyover {
-    display: none !important;
-}
+// .js-header-action[data-title="Settings"]+.js-dropdown {
+//     b.non-selectable-item.txt-ellipsis {
+//         display: none !important;
+//     }
+// }
 
-.js-modal-panel {
-    ul.js-list-container {
-        li {
-            img.avatar, .bytext, .fullname, .username {
-               display: none !important;
-            }
-        }
-    }
-    
-    .column-content {
-        .other-replies-link {
-            display: none !important;
-        }
-    }
-}
+// .js-account-list {
+//     display: none !important;
+// }
+
+// .js-column-nav-menu-flyover {
+//     display: none !important;
+// }
+
+// .js-modal-panel {
+//     ul.js-list-container {
+//         li {
+
+//             img.avatar,
+//             .bytext,
+//             .fullname,
+//             .username {
+//                 display: none !important;
+//             }
+//         }
+//     }
+
+//     .column-content {
+//         .other-replies-link {
+//             display: none !important;
+//         }
+//     }
+// }
