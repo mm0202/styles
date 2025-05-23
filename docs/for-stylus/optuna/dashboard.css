@@ -1,0 +1,14 @@
+.modebar {
+    /* Plotlyのmodebarを非表示にする */
+    /* display: none !important; */
+
+    /* Plotly modebar を右に移動 */
+    left: auto !important;
+    right: 0px !important;
+}
+
+.modebar-container {
+    /* Plotly modebar を下に移動 */
+    top: auto !important;
+    bottom: 4px !important;
+}
