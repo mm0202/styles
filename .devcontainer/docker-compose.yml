@@ -11,7 +11,7 @@ services:
     build: .
     restart: always
     ports:
-      - 50001:443
+      - 50030:443
     volumes:
       - ../docs:/usr/local/apache2/htdocs/css
       - ../src:/usr/local/apache2/htdocs/scss
