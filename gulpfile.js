@@ -5,23 +5,25 @@ const sourcemaps = require('gulp-sourcemaps');
 const autoprefixer = require('autoprefixer');
 
 const paths = {
-    'scss': 'src/',
-    'css': 'docs/'
+    'scss': 'src/for-stylus/',
+    'css': 'docs/for-stylus/'
 };
 
-gulp.task('scss', function (done) {
+function build() {
     return gulp.src(paths.scss + '**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(sourcemaps.write())
         .pipe(postcss([autoprefixer()]))
         .pipe(gulp.dest(paths.css))
-        done();
-});
+}
 
-gulp.task('watch', function (done) {
-    gulp.watch(paths.scss + '**/*.scss', gulp.series('scss'));
-    done();
-});
+function watch() {
+    gulp.watch(paths.scss + '**/*.scss', build).on('change', function (path) {
+        console.log(`File ${path} was changed, running tasks...`);
+    });
+}
 
-gulp.task('default', gulp.parallel('watch'));
+exports.build = build;
+exports.watch = watch;
+exports.default = gulp.parallel(watch);
