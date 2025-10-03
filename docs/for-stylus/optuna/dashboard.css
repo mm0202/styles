@@ -1,14 +1,15 @@
+@charset "UTF-8";
 .modebar {
-    /* Plotlyのmodebarを非表示にする */
-    /* display: none !important; */
-
-    /* Plotly modebar を右に移動 */
-    left: auto !important;
-    right: 0px !important;
+  /* Plotlyのmodebarを非表示にする */
+  /* display: none !important; */
+  /* Plotly modebar を右に移動 */
+  left: auto !important;
+  right: 0px !important;
 }
 
 .modebar-container {
-    /* Plotly modebar を下に移動 */
-    top: auto !important;
-    bottom: 4px !important;
+  /* Plotly modebar を下に移動 */
+  top: auto !important;
+  bottom: 4px !important;
 }
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm9wdHVuYS9kYXNoYm9hcmQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUE7QUFDSTtBQUNBO0FBRUE7RUFDQTtFQUNBOzs7QUFHSjtBQUNJO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5tb2RlYmFyIHtcbiAgICAvKiBQbG90bHnjga5tb2RlYmFy44KS6Z2e6KGo56S644Gr44GZ44KLICovXG4gICAgLyogZGlzcGxheTogbm9uZSAhaW1wb3J0YW50OyAqL1xuXG4gICAgLyogUGxvdGx5IG1vZGViYXIg44KS5Y+z44Gr56e75YuVICovXG4gICAgbGVmdDogYXV0byAhaW1wb3J0YW50O1xuICAgIHJpZ2h0OiAwcHggIWltcG9ydGFudDtcbn1cblxuLm1vZGViYXItY29udGFpbmVyIHtcbiAgICAvKiBQbG90bHkgbW9kZWJhciDjgpLkuIvjgavnp7vli5UgKi9cbiAgICB0b3A6IGF1dG8gIWltcG9ydGFudDtcbiAgICBib3R0b206IDRweCAhaW1wb3J0YW50O1xufSJdLCJmaWxlIjoib3B0dW5hL2Rhc2hib2FyZC5jc3MifQ== */
