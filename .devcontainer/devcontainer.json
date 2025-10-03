@@ -13,7 +13,8 @@
 			"extensions": [
 				"GitHub.vscode-pull-request-github",
 				"GitHub.copilot",
-				"GitHub.copilot-labs"
+				"GitHub.copilot-labs",
+				"ms-azuretools.vscode-containers"
 			]
 		}
 	}
